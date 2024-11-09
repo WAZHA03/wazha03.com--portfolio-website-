@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 30px;
+  background-color: rgb(105, 80, 143);
+}
+
+/*-----index-----*/
+hr {
+  color: #4e1a5e;
+}
+
+.project_list a {
+  color: whitesmoke;
+}
+
+.project_list {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 1pc;
+}
+
+.project_list a:hover {
+  text-decoration: underline;
+}
+
+.content-links {
+  margin-top: 5pc;
+  font-size: 2.2pc;
+  color: rgb(201, 190, 85);
+  font-family: ubuntu mono;
+}
+
+.content-links a {
+  color: rgb(201, 190, 95);
+}
+
+.content-links a:hover {
+  text-indent: 10%;
+  text-decoration: underline;
+  text-indent: 12%;
+}
+
+.content-main a {
+  text-decoration: none;
+}
+
+.content-main {
+  margin-bottom: 10pc;
+}
+
+.content-links img {
+  height: 1.8pc;
+}
+
+.content_mid {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo_anim img {
+  margin-top: 4pc;
+  max-width: 32pc;
+}
+
+.logo_anim img a:hover {
+  color: black;
+}
+
+.link_home a {
+  text-decoration: none;
+  color: rgb(201, 190, 85);
+  margin-left: 13pc;
+  font-size: 3pc;
+  margin-top: 4pc;
+  transition: all 0.6s ease-in-out;
+}
+
+.link_home a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.thumbnails_content {
+  height: 40pc;
+  width: 50pc;
+  border: 2px solid #4e1a5e;
+  border-radius: 2pc;
+  margin-left: 5pc;
+  margin-right: 2pc;
+}
+
+h1 {
+  margin-left: 18%;
+  font-size: 5pc;
+  color: rgb(201, 190, 85);
+}
+
+h2 {
+  font-size: 1pc;
+  color: rgb(201, 190, 85);
+}
+
+.social-media img {
+  gap: 8pc;
+  height: 3pc;
+}
+
+.footer_index {
+  margin-left: 45%;
+}
+
+/*-----Home-----*/
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  gap: 6pc;
+  position: absolute;
+  left: 65%;
+  transform: translate(-50%);
+}
+
+.nav_links img {
+  height: 5pc;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: rgb(201, 190, 85);
+  margin-left: 0pc;
+  transition: all 0.6s ease-in-out;
+  gap: 60vh;
+}
+
+.nav_links a:hover {
+  text-decoration: underline;
+  text-indent: 10%;
+  display: inline-block;
+}
+
+.animation_home {
+  margin-left: -18%;
+  margin-right: 100%;
+}
+
+.animation_home video {
+  height: 30pc;
+}
+
+.profile_home {
+  margin-top: 5pc;
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h3 {
+  margin-top: 5pc;
+  font-size: 2vh;
+  width: 50%;
+  margin-left: -35%;
+}
+
+.word_smol {
+  margin-top: 5pc;
+}
+
+p {
+  width: 10pc;
+  font-size: 2pc;
+  font-weight: 600;
+}
+
+.about_home {
+  height: 22pc;
+  width: 22pc;
+  border: 2px solid #4e1a5e;
+  border-radius: 11pc;
+}
+
+.work_home {
+  margin-top: 5pc;
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 14pc;
+  width: 14pc;
+  border: 2px solid #4e1a5e;
+  border-radius: 11pc;
+}
