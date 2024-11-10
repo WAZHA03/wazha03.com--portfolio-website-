@@ -13,16 +13,20 @@ hr {
   color: #4e1a5e;
 }
 
-.project_list a {
-  color: whitesmoke;
-}
-
 .project_list {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 1pc;
+}
+
+.project_list img {
+  height: 1.5pc;
+}
+
+.project_list a {
+  color: whitesmoke;
 }
 
 .project_list a:hover {
@@ -98,6 +102,13 @@ hr {
   margin-right: 2pc;
 }
 
+.project_list:hover .thumbnails_content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
 h1 {
   margin-left: 18%;
   font-size: 5pc;
@@ -117,6 +128,8 @@ h2 {
 .footer_index {
   margin-left: 45%;
 }
+
+/*hover funtion*/
 
 /*-----Home-----*/
 
@@ -190,6 +203,7 @@ p {
 }
 
 .work_home {
+  overflow: hidden;
   margin-top: 5pc;
   display: inline-block;
   width: 100%;
@@ -200,4 +214,76 @@ p {
   width: 14pc;
   border: 2px solid #4e1a5e;
   border-radius: 11pc;
+}
+
+.work_home img {
+  margin-bottom: 10pc;
+}
+
+/*test*/
+
+body {
+  padding: 50px;
+}
+ul {
+  background: url(http://cheap-kettlebells.com/w.png) no-repeat right top;
+  border: 1px solid #444;
+  display: inline-block;
+  position: relative;
+  margin-left: 10pc;
+  height: 80pc;
+  width: 100pc;
+}
+li {
+  font: bold 16px/100px sans-serif;
+  height: 100px;
+}
+a {
+  border-right: 1px solid #444;
+  border-top: 1px solid #444;
+  color: red;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 99px;
+}
+li:first-child a {
+  border-top: none;
+}
+li:nth-child(2) a {
+  color: blue;
+}
+li:nth-child(3) a {
+  color: green;
+}
+a:hover {
+  background: red;
+  color: #fff;
+}
+li:nth-child(2) a:hover {
+  background: blue;
+  color: #fff;
+}
+li:nth-child(3) a:hover {
+  background: green;
+  color: #fff;
+}
+img {
+  background: red;
+  display: none;
+  height: 301px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 300px;
+}
+li:nth-child(2) img {
+  background: blue;
+}
+li:nth-child(3) img {
+  background: green;
+}
+a:hover + img,
+img:hover {
+  display: block;
 }
